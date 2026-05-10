@@ -1,0 +1,105 @@
+<!<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الهندسة الذكية</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #f0f4f8; margin: 0; padding: 0; }
+        .navbar { background: linear-gradient(45deg, #1e3a8a, #2563eb); color: white; border-bottom: 5px solid #f59e0b; padding: 15px 0; }
+        .card-subject { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-right: 5px solid #2563eb; margin-bottom: 20px; }
+        .table-container { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-top: 30px; }
+        .table-header { background: #1e3a8a; color: white; padding: 15px; text-align: center; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #eef2f7; color: #1e3a8a; padding: 15px; border: 1px solid #dee2e6; }
+        td { padding: 15px; border: 1px solid #dee2e6; text-align: center; }
+        .day { background: #e0f2fe; font-weight: bold; color: #0369a1; }
+        .dean { background: #fff1f2; color: #be123c; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-4 text-white">منصة الهندسة الذكية</span>
+            <div class="text-white">مرحباً، <b>علي رزاق</b></div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h3 class="fw-bold mb-4"><i class="bi bi-mortarboard me-2"></i>المواد الدراسية</h3>
+       <div class="row">
+
+         <div class="table-container">
+            <div class="table-header fs-5">الجدول الدراسي الأسبوعي (02:00 - 04:30)</div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>اليوم</th>
+                            <th>الفترة الأولى (02:00-03:15)</th>
+                            <th>استراحة</th>
+                            <th>الفترة الثانية (03:25-04:30)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="day">الأحد</td><td>دكتورة إلهام</td><td class="small">10د</td><td>مهندس أحمد</td></tr>
+                        <tr><td class="day">الاثنين</td><td>ست ازهار</td><td class="small">10د</td><td>حسين صالح</td></tr>
+                        <tr><td class="day">الثلاثاء</td><td colspan="3" style="background:#f0fdf4">دكتورة ميراس (درسين متتاليين)</td></tr>
+                        <tr><td class="day">الأربعاء</td><td class="dean">دكتور موفق (العميد)</td><td class="small">10د</td><td>أستاذ حسام (انكليزي)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>الهياكل</h5>
+                    <p class="small text-muted">دكتور موفق</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>علوم الحاسوب</h5>
+                    <p class="small text-muted">دكتورة الهام</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>عملي علو الحاسوب</h5>
+                    <p class="small text-muted">مهندس احمد</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>رياضيات</h5>
+                    <p class="small text-muted">ست ازهار</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>البرمجه</h5>
+                    <p class="small text-muted">دكتورة ميراس</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-subject">
+                    <h5>حقوق الانسان</h5>
+                    <p class="small text-muted">الاستاذ حسين صالح</p>
+                    <button class="btn btn-primary btn-sm w-100" onclick="document.getElementById('fileInput').click()">إرسال ملف</button>
+                </div>
+            </div>
+        </div>
+
+        <input type="file" id="fileInput" style="display: none;" onchange="alert('تم اختيار الملف بنجاح، جارِ الإرسال للأستاذ...')">
